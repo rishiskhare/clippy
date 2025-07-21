@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
   },
   "background": {
     "service_worker": "background.js"
@@ -14,9 +14,9 @@
   "action": {
     "default_title": "Toggle Clippy",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
     }
   },
   "side_panel": {

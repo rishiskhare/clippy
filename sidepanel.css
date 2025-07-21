@@ -19,9 +19,16 @@ header {
 
 header h1 {
   margin: 0;
-  font-style: italic;
   text-transform: uppercase;
   font-size: 1.6rem;
+}
+
+header h1 .logo-text {
+  font-style: italic;
+}
+
+header h1 .logo-icon {
+  margin-left: 0.6rem;
 }
 
 .github-link {
@@ -324,7 +331,6 @@ main {
     background: #121212;
   }
 
-  /* Link box */
   .link-box {
     background: #1b1b1b;
     border: 1px solid #575757;
@@ -415,4 +421,21 @@ main {
 .link-box.show-copied .favicon,
 .link-box.show-copied .text {
   opacity: 0;
+} 
+
+.github-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.github-icon.dark {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .github-icon.light {
+    display: none;
+  }
+  .github-icon.dark {
+    display: inline;
+  }
 } 
