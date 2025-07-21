@@ -1,5 +1,7 @@
 # Clippy Chrome Extension
 
+https://github.com/user-attachments/assets/e9cd9677-4e5b-4ddb-b66d-2ce7d6eff446
+
 ## Overview
 Clippy is a lightweight Chrome side-panel extension that lets you save any links you need frequently and copy them to the clipboard with a single click.
 
