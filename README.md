@@ -1,4 +1,4 @@
-# Clippy Chrome Extension
+# Clippy 📎 (Chrome Extension)
 
 https://github.com/user-attachments/assets/e9cd9677-4e5b-4ddb-b66d-2ce7d6eff446
 
