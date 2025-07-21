@@ -1,0 +1,40 @@
+{
+  "name": "Clippy",
+  "description": "Save your favorite links and copy them instantly from Firefox's sidebar.",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "background": {
+    "type": "module",
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Toggle Clippy",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+  },
+  "sidebar_action": {
+    "default_panel": "sidepanel.html",
+    "default_title": "Clippy",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    },
+    "open_at_install": true
+  },
+  "permissions": ["clipboardWrite", "storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "clippy@rishikhare.github",
+      "strict_min_version": "109.0"
+    }
+  }
+} 
